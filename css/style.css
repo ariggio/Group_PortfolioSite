@@ -1,0 +1,341 @@
+html, body {
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	margin-top: 45px;
+	
+}
+
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+.header h1 {
+	font-size: 60px;
+}
+
+.nav li {
+	display: inline;
+	margin: 28px;
+}
+
+.nav li a {
+	font-size: 18px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: black;
+}
+
+.bar {
+	background-color: #19334d;
+	padding: 1px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.blogdivide {
+	background-color: #19334d;
+	padding: 0.4px; /*thickness of bar*/
+	margin-top: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.maintext {
+	text-align: left;
+	font-size: 28px;
+	padding-top: 2.5em;
+	padding-left: 3.5em;
+	width: 550px;
+	float: left;
+}
+
+/*.main {
+	height: 600px;
+	background-image: url("../images/sc1.png");
+}*/
+
+.sample {
+	width: 60%;
+	border-radius: 0.5em;
+	border: 1px solid #595959;
+}
+
+.gallery {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gimg {
+	width: 450px;
+	height: 250px;
+	margin: 0.7em;
+	border-radius: 0.5em;
+	border: 1px solid #595959;
+}
+
+.fullimg {
+	width: 75%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.back a {
+	font-size: 18px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.back a:hover {
+	color: black;
+}
+
+article {
+	float: left;
+}
+
+.blogbar {
+	height: 500px;
+	width: 200px;
+	background-color: #bbbbbb;
+	margin-left: 75px;
+}
+
+.archivetitle {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	padding-top: 1.4em;
+
+}
+
+.blogbar p {
+	padding: 0 2em 0 2em;
+}
+
+.blogbar ul {
+	margin-right: 40px;
+	margin-bottom: 30px;
+	list-style-type: none;	
+}
+	
+.blogbar li {
+	margin: 15px;
+}
+	
+.blogbar li a {
+	font-size: 20px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.blogbar li a:hover {
+	color: black;
+}
+
+.blogtext {
+	height: 500px;
+	background-color: #e6e6e6;
+	margin-left: 300px;
+	margin-right: 75px;
+	margin-top: 59px;
+	text-align: left;
+	overflow: auto; /*scroll box appears in case of overflow, otherwise overflow: scroll;*/
+}
+
+.blogtext h1 {
+	padding: 1em 1em 0 1em;
+}
+
+.blogtext h2 {
+	text-align: center;
+}
+
+.blogtext p {
+	padding: 0 3em 1em 4em;
+	font-size: 18px;
+}
+
+.contactimg {
+	text-align: left;
+	float: left;
+	margin-left: 40px;
+}
+
+.contacttext {
+	height: 500px; /*change when you have more concrete info to add*/
+	background-color: #e6e6e6;
+	margin-left: 430px;
+	margin-right: 75px;
+	margin-top: 59px;
+	overflow: auto; /*scroll box appears in case of overflow, otherwise overflow: scroll;*/
+}
+
+.contacttext p {
+	text-align: left;
+	padding: 0 3em 1em 3em; /*space between sections of <p> */
+	font-size: 18px;
+}
+
+.contacttext ul {
+	margin-right: 23px;
+}
+
+.contacttext li {
+	display: inline;
+	margin: 10px;
+}
+
+.contacttext li a {
+	font-size: 18px;
+	color: #336699;
+	text-decoration: none;
+}
+
+.contacttext li a:hover {
+	color: black;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.mobile {
+	display: none;
+	}
+	
+.desktop {
+	display: inline;
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	.subheader {
+		margin-top: -30px;
+	}
+	
+	.sample {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	
+	.nav ul {
+		margin-right: 40px;
+	}
+	
+	.nav li {
+		display: block;
+		margin: 28px;
+	}
+	
+	.nav li a {
+		font-size: 22px;
+		color: #4d4d4d;
+		text-decoration: none;
+	}
+	
+	p {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+	}
+	
+	.footer p {
+		font-size: 18px;
+	}
+	
+	.maintext {
+		text-align: center;
+	}
+	
+	.sample {
+		width: 80%;
+	}
+	
+	.gallery {
+		width: 100%;
+	}
+	
+	.gimg {
+		width: 350px;
+		margin: 0.9em;
+	}
+	
+	.mblogbar h2 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	
+	.marchive ul {
+		margin-right: 23px;
+		list-style-type: none;	
+	}
+	
+	.marchive li {
+		margin: 15px;
+	}
+	
+	.marchive li a {
+		font-size: 20px;
+		color: #336699;
+		text-decoration: none;
+	}
+
+	.marchive li a:hover {
+		color: black;
+	}
+	
+	.mcontactimg {
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	
+	.mcontacttext ul {
+		margin-right: 23px;
+	}
+
+	.mcontacttext li {
+		display: inline;
+		margin: 15px;
+	}
+
+	.mcontacttext li a {
+		font-size: 20px;
+		color: #336699;
+		text-decoration: none;
+	}
+
+	.mcontacttext li a:hover {
+		color: black;
+	}
+	
+	.mobile {
+		display: inline;
+	}
+	
+	.desktop {
+		display: none;
+	}
+	
+}
